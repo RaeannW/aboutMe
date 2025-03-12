@@ -1,9 +1,17 @@
-import Typewriter from "../components/Typewriter"
+import Tabs from "../components/Tabs"
+import TypedBanner from "../components/TypedBanner"
+// import Typewriter from "../components/Typewriter"
+import Intro from "../components/Intro"
+
 function App() {
+
 
   return (
     <>
-    <Typewriter text="Hello There ..."/>
+    <Intro />
+    <TypedBanner />
+    {/* <Typewriter text="Hello"/> */}
+    <Tabs />
     </>
   )
 }
