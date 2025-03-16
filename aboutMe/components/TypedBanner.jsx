@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function TypedBanner() {
   const [loop, setLoop] = useState(0);
-  const wordsToLoop = ["Blogger", "Developer", "Designer"];
+  const wordsToLoop = ["Blogger...", "Developer...", "Designer..."];
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   //how fast btwn words
@@ -44,8 +44,9 @@ export default function TypedBanner() {
 
   return (
     <>
-    <div className="h-[300px]">
-      <h1 className="p-12 text-6xl font-primary text-[#3D2C22]">{text}</h1>
+    <div className="h-[10rem] bg-black flex flex-col items-center justify-center">
+      <h3 className="text-md text-white pb-4">Get to know me</h3>
+      <h1 className="text-7xl font-primary text-white">I'm a {text}</h1>
       </div>
     </>
   );

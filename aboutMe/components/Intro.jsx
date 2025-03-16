@@ -4,7 +4,7 @@ import sunIcon from "../src/assets/sunIcon.svg";
 
 export default function Intro() {
   return (
-    <div className="flex pt-5">
+    <div className="flex p-5">
       <div className="mx-10">
         <p className="[writing-mode:vertical-lr] text-6xl">Behind the Scenes</p>
       </div>
