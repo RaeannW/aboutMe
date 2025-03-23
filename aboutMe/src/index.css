@@ -4,5 +4,20 @@
 @layer base {
   body {
     font-family: "Merriweather", serif;
+    color: #262422;
   }
+  .buttonPrimary {
+    @apply bg-[#6C7E78] text-white px-10 py-3 cursor-pointer hover:bg-[#262422];
+  }
+}
+@theme {
+  --color-light: #FDF6EE;
+  --color-brown-light: #B0A599;
+  --color-brown-med: #49433D;
+  --color-orange-light: #EFC7A3;
+  --color-orange-dark: #D7985F;
+  --color-teal-light: #D8E5E0;
+  --color-teal-med: #A2B9B1;
+  --color-teal-dark: #6C7E78;
+  --color-dark: #262422;
 }

@@ -44,9 +44,9 @@ export default function TypedBanner() {
 
   return (
     <>
-    <div className="h-[10rem] bg-black flex flex-col items-center justify-center">
-      <h3 className="text-md text-white pb-4">Get to know me</h3>
-      <h1 className="text-7xl font-primary text-white">I'm a {text}</h1>
+    <div className="h-[14rem] bg-dark flex flex-col items-center justify-center">
+      <h3 className="text-lg text-white pb-4 underline decoration-wavy decoration-orange-dark decoration-1 underline-offset-4">Get to know me</h3>
+      <h1 className=" text-5xl md:text-7xl font-primary text-white">I'm a {text}</h1>
       </div>
     </>
   );
